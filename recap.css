@@ -19,3 +19,23 @@ img{
     border: .3rem solid#1ab481;
     border-radius: .5rem;
 }
+/*.border-image-style start*/
+.border-image-style{
+    background-color: blanchedalmond;
+    padding: 1rem;
+    width: 30rem;
+    margin: 10rem auto;
+    text-align: center;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-left: 1rem solid;
+    border-image-slice:1;
+}
+.border-image-style h4{
+    font-size: 2rem;
+    color:#1ab481;
+}
+.border-image-style p{
+    color: brown;
+    font-size: 1.5rem;
+}
+/*.border-image-style end*/
