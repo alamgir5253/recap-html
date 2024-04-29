@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
 color: blueviolet;
 background: #1ab481;
@@ -6,4 +12,10 @@ border-radius: 1rem;
 padding: 1rem;
 text-align:center;
 box-shadow: 2rem;
+}
+img{
+    margin: 2rem auto;
+    display:block;
+    border: .3rem solid#1ab481;
+    border-radius: .5rem;
 }
